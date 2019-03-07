@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    width: 100%;
+    box-shadow: 0 2px 5px #ccc;
+    position: fixed;
+    top: 0;
+    background: white;
+    z-index: 1;
+}
+.navbar .navbar-logo p {
+    font-size: 30px;
+}
+.navbar .navbar-list ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding-left: 40px;
+}
+.navbar .navbar-list ul {
+    display: flex;
+    padding-right: 40px;
+    list-style-type: none;
+}
+.main-container {
+    width: 90%;
+    margin: auto;
+}
+.main-container .content .center-image {
+    margin-top: 64px;
+    position: relative;
+}
+.content .textover-image {
+    position: absolute;
+    top: 60%;
+    left: 45%;
+    /* transform: translate(-50%, -50%); */
+}
+.content .textover-image .block {
+   padding: 10px;
+    background: black;
+    color: white;
+    opacity: 0.8;
+}
+.content .textover-image p {
+    font-size: 50px;
+    color: white;
+}
+.main-container .diff-projects  {
+    font-size: 25px;
+    border-bottom: 1px solid #ccc;
+}
+.main-container .projects-image {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 90%;
+    box-sizing: border-box;
+    grid-gap: 10px;
+    position: relative;
+}
+.projects-image img {
+    width: 370px;
+    height: 320px;
+}
+.main-container .project-image-text {
+    position: absolute;
+
+}
+
+
+
+
+.main-container .about-part .about-heading  {
+    font-size: 25px;
+    border-bottom: 1px solid #ccc;
+}
+.about-part .about-founder {
+    display: flex;
+}
+.about-founder img {
+    width: 370px;
+    height: 320px;
+}
+.about-image {
+    width: 360px;
+    margin-left: 20px;
+}
+.about-image .name {
+    font-size: 25px;
+}
+.about-image .button {
+    width: 360px;
+    height: 40px;
+    cursor: pointer;
+}
+.about-image .button:hover {
+    background: #ccc;
+}
+.contact .contact-heading {
+    font-size: 25px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+}
+.contact .field {
+    width: 100%;
+    padding: 8px;
+    margin-top: 15px;
+}
+.contact .contact-btn {
+    color: white;
+    width: 200px;
+    padding: 10px 10px;
+    font-size: 20px;
+}
+.footer {
+    background: black;
+    color: white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer a {
+    color: white;
+}
